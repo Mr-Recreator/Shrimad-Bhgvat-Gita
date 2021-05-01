@@ -16,15 +16,15 @@
 	<script src="modalx.min.js"></script>
     	<link rel="stylesheet" href="style.css">
 	<SCRIPT language=JavaScript>
-var message = "You Can't Right Click Thank You";
+	var message = "You Can't Right Click Thank You";
 
-function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
+	function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
 
-if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
+	if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
 
-document.onmousedown = rtclickcheck;
+	document.onmousedown = rtclickcheck;
 
-</SCRIPT>
+	</SCRIPT>
 </head>
   <body>
 	<div id="preloader" class="main-bg">
