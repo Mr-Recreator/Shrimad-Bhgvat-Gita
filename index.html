@@ -15,6 +15,16 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="modalx.min.js"></script>
     	<link rel="stylesheet" href="style.css">
+	<SCRIPT language=JavaScript>
+var message = "You Can't Right Click Thank You";
+
+function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
+
+if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
+
+document.onmousedown = rtclickcheck;
+
+</SCRIPT>
 </head>
   <body>
 	<div id="preloader" class="main-bg">
