@@ -22,6 +22,11 @@ In this web project we have designed menu based web pages using web tools. When 
 
 System Requirements : This web project uses HTML/ CSS/ Javascript as a webtools and hosted on Github. It is best viewed in google chrome , mozilla firefox, microsoft edge desktop web browsers. 
 
+Website Courtesy For Content of Shrimad Bhagvat Gita :
+
+IIT Kanpur      :https://www.gitasupersite.iitk.ac.in/srimad
+Prabhupad Books :https://prabhupadabooks.com/bg/
+
 Future Works : This project is best viewed on desktop browsers in future it is upgraded to smooth user experience for mobile devices and audio version of text is also available for users.
 
 Source Code: 
